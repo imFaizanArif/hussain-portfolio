@@ -13,6 +13,7 @@ const Navbar = () => {
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 hidden md:flex flex-wrap items-center text-base justify-center font-semibold space-x-5">
                     <Link href={`/`}> <p className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">Home</p></Link>
                     <Link href={`/about`}><p className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">About</p></Link>
+                    <Link href={`/projects`}><p className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">Projects</p></Link>
                     <Link href={`/resume`}><p className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">Resume</p></Link>
                 </nav>
                 <div className='ml-auto cursor-pointer inline-block md:hidden'>
