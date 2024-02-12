@@ -12,12 +12,12 @@ const Hero = () => {
                     <div className="font-semibold text-neutral-800 text-4xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200">
                         <span className="font-semibold text-neutral-800 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
                             <ul className="block animate-text-slide-2 text-left leading-tight [&_li]:block">
-                                <li>Product Designer</li>
-                                <li>UX Designer</li>
+                                <li>Product Designer.</li>
+                                <li>UX Designer.</li>
                             </ul>
                         </span></div>
                     <h5 className='text-neutral-700 font-medium text-xl sm:text-xl md:text-2xl mt-10'>
-                        <a href="https://gomotive.com/" target='_blank'>Previously at <span className='bg-gradient-to-r from-gradient-start to-gradient-end hover:from-[#011871] hover:to-[#5FC6FF] text-transparent bg-clip-text ml-2 cursor-pointer'>Motive Technologies, Inc</span></a> </h5>
+                        <a href="https://gomotive.com/" target='_blank'>Previously at <span className='bg-gradient-to-r from-gradient-start to-gradient-end hover:from-[#011871] hover:to-[#5FC6FF] hover:border-b-[1px] hover:border-gradient-start text-transparent bg-clip-text ml-2 cursor-pointer'>Motive Technologies, Inc</span></a> </h5>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <Image src={hero} alt="hero"
