@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="container mx-auto flex px-5 sm:px-5 md:px-20 pb-0 sm:pb-0 md:pb-20 py-14 sm:py-14 md:py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-16 md:mb-0 md:mx-8">
                     <h2 className='font-semibold text-neutral-800'>Hello, I am</h2>
-                    <h1 className="title-font font-semibold bg-gradient-to-r from-gradient-start to-gradient-end text-transparent bg-clip-text my-4 sm:my-4 md:my-0">Hussain Haider Zaidi</h1>
+                    <h1 className="title-font font-semibold bg-gradient-to-r from-gradient-start to-gradient-end text-transparent bg-clip-text my-4 sm:my-4 md:my-0 md:mb-2">Hussain Haider Zaidi</h1>
                     <div className="font-semibold text-neutral-800 text-4xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200">
                         <span className="font-semibold text-neutral-800 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
                             <ul className="block animate-text-slide-2 text-left leading-tight [&_li]:block">
