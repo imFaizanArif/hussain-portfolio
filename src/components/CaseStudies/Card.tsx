@@ -7,7 +7,7 @@ const Card = () => {
         <div className="w-full h-[606px]">
             <div className="">
                 <div className='w-full h-[416px] bg-neutral-200 rounded-md'></div>
-                <div className='my-7'>
+                <div className='my-6'>
                     <div className='flex space-x-2'>
                         <p className='bg-neutral-100 text-neutral-700 px-2 py-1 rounded-md'>Fleet Management</p>
                         <p className='bg-neutral-100 text-neutral-700 px-2 py-1 rounded-md'>Fleet Management</p>
