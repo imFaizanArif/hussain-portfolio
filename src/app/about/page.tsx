@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import AboutHero from '@/components/AboutHero'
 import React from 'react'
 import AboutDetails from '@/components/AboutDetails'
+import AboutHighlights from '@/components/AboutHighlights'
 
 const About = () => {
     return (
@@ -10,6 +11,7 @@ const About = () => {
             <Navbar />
             <AboutHero />
             <AboutDetails />
+            <AboutHighlights />
             <Footer />
         </>
     )
