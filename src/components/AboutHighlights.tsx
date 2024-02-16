@@ -7,7 +7,7 @@ import 'react-multi-carousel/lib/styles.css';
 const AboutHighlights = () => {
     return (
         <section>
-            <div className="container mx-auto flex px-5 sm:px-5 md:px-20 pb-0 sm:pb-0 md:pb-20 py-14 sm:py-14 md:py-20 md:flex-row flex-col items-start">
+            <div className="container mx-auto flex px-5 sm:px-5 md:px-20 pb-0 sm:pb-0 md:pb-20 py-10 sm:py-10  md:py-20 md:flex-row flex-col items-start">
                 <div className="w-full mx-auto">
                     <h3 className='text-[28px] font-semibold text-neutral-800 leading-10 mb-6 ml-0 sm:ml-0 md:ml-8'>About</h3>
                     <div className='hidden sm:hidden md:flex items-end justify-between'>

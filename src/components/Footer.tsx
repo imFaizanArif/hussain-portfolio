@@ -3,9 +3,9 @@ import { hero } from '@/assets'
 const Footer = () => {
     return (
         <footer className="text-neutral-800 body-font">
-            <div className="container px-5 sm:px-5 md:px-20 pt-12  flex flex-wrap mx-auto items-center">
+            <div className="container px-5 sm:px-5 md:px-20 pt-10  flex flex-wrap mx-auto items-center">
                 <div className="md:mx-8 flex md:flex-nowrap flex-wrap justify-center items-end md:justify-between w-full px-">
-                    <h2 className='text-neutral-800 font-semibold text-[28px] md:text-4xl'>
+                    <h2 className='text-neutral-800 font-semibold text-[24px] sm:text-[24px] md:text-[28px] md:text-4xl'>
                         Got an idea?<br />
                         <span className='bg-gradient-to-r from-gradient-start to-gradient-end text-transparent bg-clip-text'>
 
@@ -21,7 +21,7 @@ const Footer = () => {
                     <a href={`/`} target='_blank' className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">Email</a>
                     <a href={`https://linkedin/in/hussain`} target='_blank' className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">LinkedIn</a>
                 </nav>
-                <p className="text-gray-500 text-sm text-center sm:text-left">© 2023-24 Hussain Haider Portfolio</p>
+                <p className="text-gray-500 text-xs sm:text-xs md:text-sm text-center sm:text-left">© 2023-24 Hussain Haider Portfolio</p>
             </div>
         </footer>
     )

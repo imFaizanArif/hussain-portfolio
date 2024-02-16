@@ -30,6 +30,16 @@ p {
   font-size: 14px;
 }
 
+@layer components {
+  .react-multi-carousel-list {
+    display: inline-block;
+
+    @media (min-width: 640px) {
+      display: none;
+    }
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
