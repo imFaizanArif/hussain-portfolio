@@ -1,4 +1,4 @@
-import hero from "./images/hero.svg";
+import hero from "./images/hero.jpg";
 import aboutHero from "./images/aboutHero.svg";
 import rightArrow from "./images/rightArrow.svg";
 import logo from "./images/logo.svg";

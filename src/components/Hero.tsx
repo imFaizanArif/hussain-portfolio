@@ -21,25 +21,16 @@ const Hero = () => {
                         <a href="https://gomotive.com/" target='_blank'>Previously at<span className='bg-gradient-to-r from-gradient-start to-gradient-end hover:from-[#011871] hover:to-[#5FC6FF] hover:border-b-[1px] hover:border-gradient-start text-transparent bg-clip-text ml-2 cursor-pointer'>Motive Technologies, Inc</span></a> </h5>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <div className='relative'>
-
-                        <Image src={hero} alt="hero"
-                            onLoad={() => setLoaded(true)}
-                            sizes="100vw"
-                            style={{
-                                width: '100%',
-                                height: 'auto',
-                                // opacity: loaded ? "1" : "0"
-                            }}
-                            className={`${loaded ? 'relative' : 'absolute top-0 left-0'}`}
-                            width={500}
-                            height={300} />
-                        {!loaded && (
-                            <div className="animate-pulse z-50">
-                                <div className="w-full h-[310px] sm:h-[310px] md:h-[280px] lg:h-[510px] bg-gray-400 rounded" ></div>
-                            </div>
-                        )}
-                    </div>
+                    <Image src={hero} alt="hero"
+                        onLoad={() => setLoaded(true)}
+                        sizes="100vw"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                        }}
+                        className='rounded-lg'
+                        width={500}
+                        height={300} />
 
                 </div>
             </div>
