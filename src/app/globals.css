@@ -45,3 +45,8 @@ p {
     text-wrap: balance;
   }
 }
+
+.react-multi-carousel-track {
+  display: flex;
+  align-items: baseline;
+}

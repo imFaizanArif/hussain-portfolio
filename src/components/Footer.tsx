@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="container mx-auto py-8 mb-5 sm:mb-5 md:mb-0 px-20 flex flex-wrap flex-col sm:flex-row items-center justify-center">
                 <nav className="md:mx-8 md:mr-auto hidden md:flex flex-wrap items-center text-base justify-center font-semibold space-x-5">
                     <a href={`/`} target='_blank' className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">Email</a>
-                    <a href={`https://linkedin/in/hussain`} target='_blank' className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">LinkedIn</a>
+                    <a href={`https://www.linkedin.com/in/hussainhaiderzaidi/`} target='_blank' className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">LinkedIn</a>
                 </nav>
                 <p className="text-gray-500 text-xs sm:text-xs md:text-sm text-center sm:text-left">© 2023-24 Hussain Haider Portfolio</p>
             </div>
