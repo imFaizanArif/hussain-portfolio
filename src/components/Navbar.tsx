@@ -7,9 +7,9 @@ const Navbar = () => {
     return (
         <header className="text-neutral-800 body-font">
             <div className="container mx-auto flex flex-wrap px-5 sm:px-5 md:px-20 py-5 pb-0 sm:pb-0 md:pb-5 flex-row items-start sm:items-start md:items-center">
-                <a className="flex title-font font-medium items-center mb-4 md:mb-0">
+                <Link href={"/"} className="flex title-font font-medium items-center mb-4 md:mb-0">
                     <Image src={logo} alt="logo" width={50} height={50} />
-                </a>
+                </Link>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 hidden md:flex flex-wrap items-center text-base justify-center font-semibold space-x-5">
                     <Link href={`/`}> <p className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">Home</p></Link>
                     <Link href={`/about`}><p className="border-b-2 border-white hover:border-gradient-end hover:cursor-pointer hover:text-neutral-800">About</p></Link>

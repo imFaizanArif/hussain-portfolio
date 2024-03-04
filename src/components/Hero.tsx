@@ -17,8 +17,8 @@ const Hero = () => {
                                 <li>UX Designer.</li>
                             </ul>
                         </span></div>
-                    <h5 className='text-neutral-700 font-medium text-lg sm:text-lg md:text-2xl mt-8 sm:mt-8 md:mt-10'>
-                        <a href="https://gomotive.com/" target='_blank'>Previously at<span className='bg-gradient-to-r from-gradient-start to-gradient-end hover:from-[#011871] hover:to-[#5FC6FF] hover:border-b-[1px] hover:border-gradient-start text-transparent bg-clip-text ml-2 cursor-pointer'>Motive Technologies, Inc</span></a> </h5>
+                    <p className='text-neutral-700 font-medium text-lg sm:text-lg md:text-2xl mt-8 sm:mt-8 md:mt-10'>
+                        <a href="https://gomotive.com/" target='_blank'>Previously at<span className='bg-gradient-to-r from-gradient-start to-gradient-end hover:from-[#011871] hover:to-[#5FC6FF] hover:border-b-[1px] hover:border-gradient-start text-transparent bg-clip-text ml-2 cursor-pointer'>Motive Technologies, Inc</span></a> </p>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <Image src={hero} alt="hero"
