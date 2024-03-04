@@ -71,10 +71,10 @@ const AboutHighlights = () => {
                         slidesToSlide={1}
                         swipeable
                     >
-                        <Image src={h1} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-3xl w-full sm:w-full md:w-auto' />
-                        <Image src={h2} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-3xl w-full sm:w-full md:w-auto' />
-                        <Image src={h3} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-3xl w-full sm:w-full md:w-auto' />
-                        <Image src={h4} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-3xl md:w-auto' />
+                        <Image src={h1} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-md sm:rounded-md md:rounded-3xl w-full sm:w-full md:w-auto' />
+                        <Image src={h2} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-md sm:rounded-md md:rounded-3xl w-full sm:w-full md:w-auto' />
+                        <Image src={h3} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-md sm:rounded-md md:rounded-3xl w-full sm:w-full md:w-auto' />
+                        <Image src={h4} alt="about" className='p-0 sm:p-0 md:p-4 pr-0 sm:pr-0 md:pr-3 rounded-md sm:rounded-md md:rounded-3xl md:w-auto' />
                     </Carousel>
                 </div>
 
