@@ -24,6 +24,7 @@ const AboutHighlights = () => {
                         centerMode={false}
                         className="ml-0 sm:ml-0 md:ml-8  w-full flex items-end"
                         containerClass="container-with-dots"
+                        customTransition="all 2s linear"
                         dotListClass=""
                         draggable
                         focusOnSelect={false}
