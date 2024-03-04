@@ -19,8 +19,8 @@ const AboutHighlights = () => {
                     <Carousel
                         additionalTransfrom={0}
                         arrows={false}
-                        // autoPlay
-                        // autoPlaySpeed={1000}
+                        autoPlay
+                        autoPlaySpeed={1000}
                         centerMode={false}
                         className="ml-0 sm:ml-0 md:ml-8  w-full flex items-end"
                         containerClass="container-with-dots"
